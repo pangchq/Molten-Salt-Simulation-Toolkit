@@ -1,0 +1,582 @@
+#AgCl
+data for   ICSD #157535
+Structured  Ag Cl
+D(calc)     5.37
+Title       Computational study of Ag Cl and Ag Br semiconductors
+Author(s)   Benmessabih, T.;Amrani, B.;El haj Hassan, F.;Hamdache, F.;Zoaeter, M.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   5.617 5.617 5.617 90. 90. 90.
+Vol         177.22
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Ag   1  +1    4 a   0.          0.          0.             1.         0    
+ Cl   1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END AgCl
+--------------------------------------------------------------------------------------------------------------------
+#DyCl3
+data for   ICSD #40064
+Structured  Dy Cl3
+D(calc)     4.65
+Title       Darstellung und Kristallstruktur von Ln Al3 Cl12 (Ln= Tb, Dy, Ho) und 
+            thermischer Abbau zu Ln Cl3
+Author(s)   Hake, D.;Urland, W.
+Space Group C m c m
+SG Number   63
+Cryst Sys   orthorhombic
+Unit Cell   3.816(1) 11.815(2) 8.507(1) 90. 90. 90.
+Vol         383.55
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Dy   1  +3    4 c   0           0.2432(1)   0.25           1.         0    
+ Cl   1  -1    4 c   0           0.5864(5)   0.25           1.         0    
+ Cl   2  -1    8 f   0           0.1479(3)   0.5665(4)      1.         0 
+#END DyCl3
+--------------------------------------------------------------------------------------------------------------------
+#BeF2-2LiF
+data for   ICSD #72423
+Structured  Li2 (Be F4)
+D(calc)     2.18
+Title       Estimation of ionicity coefficients in Li2 Be F4 crystals by X-ray diffraction.
+Author(s)   Seiler, P.
+Space Group R-3H
+SG Number   148
+Cryst Sys   trigonal/rhombohedral
+Unit Cell   13.281(2) 13.281(2) 8.888(1) 90. 90. 120.
+Vol         1357.68
+Z           18
+#Atom #  OX    SITE      x           y           z         SOF         H 
+ F    1  -1    18 f  0.10541(1)  0.88942(1)  0.25185(1)     1.         0    
+ F    2  -1    18 f  0.32334(1)  0.00563(1)  0.24887(1)     1.         0    
+ F    3  -1    18 f  0.20410(1)  0.07550(1)  0.10393(1)     1.         0    
+ F    4  -1    18 f  0.20938(1)  0.08201(1)  0.39283(1)     1.         0    
+ Be   1  +2    18 f  0.21175(1)  0.01535(1)  0.24949(2)     1.         0    
+ Li   1  +1    18 f  0.21474(2)  0.02096(3)  0.58176(3)     1.         0    
+ Li   2  +1    18 f  0.20759(2)  0.01646(2)  0.91504(3)     1.         0 
+#END BeF2-2LiF
+--------------------------------------------------------------------------------------------------------------------
+#BeF2
+data for   ICSD # no, 模仿CaF2建立
+Structured  Be F2
+D(calc)     2.321
+Title       Single Crystal X-Ray Structure of BeF2 alpha-Quartz, 2011, 50:86-89
+Author(s)   Pallavi G., Prasanna S.G.
+Unit Cell   4.739 4.739 4.739 90. 90. 90.
+Vol         100.89
+Z           3
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   trigonal
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Be   1  +2    4 a   0            0           0                 1.         0    
+ F    1  -1    8 c   0.25         0.25        0.25              1.         0 
+#END BeF2
+--------------------------------------------------------------------------------------------------------------------
+#LiF
+data for   ICSD #52234
+Structured  Li F
+D(calc)     2.62
+Title       The effect of crystal-size on lattice-dimensions
+Author(s)   Finch, G.J.;Fordham, S.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   4.0355 4.0355 4.0355 90. 90. 90.
+Vol         65.69
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Li   1  +1    4 a   0           0           0              1.         0    
+ F    1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END LiF
+--------------------------------------------------------------------------------------------------------------------
+#NaF
+data for   ICSD #43611
+Structured  Na F
+D(calc)     2.8
+Title       Thermal expansion of sodium fluoride and sodium bromide
+Author(s)   Deshpande, V.P.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   4.6340 4.634 4.634 90. 90. 90.
+Vol         99.51
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Na   1  +1    4 a   0           0           0              1.         0    
+ F    1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END NaF
+--------------------------------------------------------------------------------------------------------------------
+#KF
+data for   ICSD #52241
+Structured  K F
+D(calc)     2.5
+Title       The effect of crystal-size on lattice-dimensions
+Author(s)   Finch, G.J.;Fordham, S.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   5.367 5.367 5.367 90. 90. 90.
+Vol         154.59
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ K    1  +1    4 a   0           0           0              1.         0    
+ F    1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END KF
+--------------------------------------------------------------------------------------------------------------------
+#RbF
+data for   ICSD #53828
+Structured  Rb F
+D(calc)     3.87
+Title       Geochemische Verteilungsgestze der Elemente. VII. Die Gesetze der 
+            Krystallochemie
+Author(s)   Goldschmidt, V.M.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   5.642 5.642 5.642 90. 90. 90.
+Vol         179.41
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Rb   1  +1    4 a   0           0           0              1.         0    
+ F    1  -1    4 b   0.5         0.5         0.5            1.         0
+#END RbF
+--------------------------------------------------------------------------------------------------------------------
+#CsF
+data for   ICSD #44288
+Structured  Cs F
+D(calc)     4.4
+Title       Direct determination of self-consistent total energies and and charge 
+            densities of solids: a study of the cohesive properties of the alkali 
+            halides
+Author(s)   Cortona, P.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   6.12 6.12 6.12 90. 90. 90.
+Vol         229.22
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Cs   1  +1    4 a   0           0           0              1.         0    
+ F    1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END CsF
+--------------------------------------------------------------------------------------------------------------------
+#CaF2
+data for   ICSD #52754
+Structured  Ca F2
+D(calc)     3.18
+Title       Standard X-ray diffraction powder patterns
+Author(s)   Swanson, H.E.;Tatge, E.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   5.4626 5.4626 5.4626 90. 90. 90.
+Vol         163
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Ca   1  +2    4 a   0           0           0              1.         0    
+ F    1  -1    8 c   0.25        0.25        0.25           1.         0    
+#END CaF2
+--------------------------------------------------------------------------------------------------------------------
+#SrF2
+data for   ICSD #41402
+Structured  Sr F2
+D(calc)     4.28
+Title       A time-of-flight neutron diffraction study of anharmonic thermal vibrations in Sr F2, at the spallation neutron source ISIS
+Author(s)   Forsyth, J.B.;Wilson, C.C.;Sabine, T.M.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   5.800(3) 5.800(3) 5.800(3) 90. 90. 90.
+Vol         195.11
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Sr   1  +2    4 a   0           0           0              1.         0
+ F    1  -1    8 c   0.25        0.25        0.25           1.         0
+#END SrF2
+--------------------------------------------------------------------------------------------------------------------
+#YF3
+data for   ICSD #6023
+Structured  Y F3
+D(calc)     5.06
+Title       The structures of yttrium and bismuth trifluorides by neutron 
+            diffraction
+Author(s)   Cheetham, A.K.;Norman, N.
+Space Group Pnma
+SG Number   62
+Cryst Sys   orthorhombic
+Unit Cell   6.3537(7) 6.8545(7) 4.3953(4) 90. 90. 90.
+Vol         191.42
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H        ITF(B)    
+ Y    1  +3    4 c   0.3673(4)   0.25        0.0591(5)      1.         0            0.37
+ F    1  -1    4 c   0.5227(5)   0.25        0.5910(8)      1.         0            0.89
+ F    2  -1    8 d   0.1652(4)   0.0643(3)   0.3755(5)      1.         0            0.57
+#END YF3
+--------------------------------------------------------------------------------------------------------------------
+#ThF4
+data for   ICSD #66009
+Structured  Th F4
+D(calc)     6.15
+Title       Zur Kenntnis binaerer Fluoride des Zr F4-Typs: Hf F4 und Th F4
+Author(s)   Benner, G.;Mueller, B.G.
+Space Group C 1 2/c 1
+SG Number   15
+Cryst Sys   monoclinic
+Unit Cell   13.049(3) 11.120(2) 8.538(2) 90. 126.31(1) 90.
+Vol         998.34
+Z           12
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Th   1  +4    8 f   0.2041      0.4282      0.3309         1.         0    
+ Th   2  +4    4 e   0           0.7869      0.25           1.         0    
+ F    1  -1    4 e   0.5         0.8996(10)  0.25           1.         0    
+ F    2  -1    8 f   0.1172(8)   0.6196(7)   0.2800(12)     1.         0    
+ F    3  -1    8 f   0.1274(7)   0.8460(6)   0.1579(10)     1.         0    
+ F    4  -1    4 d   0.25        0.75        0              1.         0    
+ F    5  -1    8 f   0.8799(7)   0.9482(6)   0.0442(10)     1.         0    
+ F    6  -1    8 f   0.8910(7)   0.7052(7)   0.9334(10)     1.         0    
+ F    7  -1    8 f   0.2104(8)   0.5279(7)   0.1018(10)     1.         0   
+#END ThF4
+--------------------------------------------------------------------------------------------------------------------
+#LaF3
+data for   ICSD #164054
+Structured  La F3
+D(calc)     6.43
+Title       Pressure-induced phase transition in tysonite La F3
+Author(s)   Modak, P.;Verma, A.K.;Ghosh, S.;Das, G.P.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   5.87 5.87 5.87 90. 90. 90.
+Vol         202.26
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ La   1  +3    4 a   0.          0.          0.             1.         0    
+ F    1  -1    8 c   0.250       0.250       0.250          1.         0    
+ F    2  -1    4 b   0.5         0.5         0.5            1.         0    
+#END LaF3
+--------------------------------------------------------------------------------------------------------------------
+#ZrF4
+data for   ICSD #35100
+Structured  Zr F4
+D(calc)     4.61
+Title       Structure du tetrafluorure de zirconium, Zr F4 alpha
+Author(s)   Papiernik, R.;Mercurio, D.;Frit, B.
+Reference   Acta Crystallographica B (24,1968-38,1982)
+            (1982), 38, 2347-2353
+            Phase Transition
+            (1992), 38, 127-220
+Unit Cell   7.896(1) 7.896(1) 7.724(1) 90. 90. 90.
+Vol         481.57
+Z           8
+Space Group P 42/m
+SG Number   84
+Cryst Sys   tetragonal
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Zr   1  +4    8 k   0.18264(4)  0.31935(4)  0.23077(4)     1.         0    
+ F    1  -1    8 k   0.7122(3)   0.4406(3)   0.1931(3)      1.         0    
+ F    2  -1    8 k   0.2038(3)   0.0635(3)   0.2134(3)      1.         0    
+ F    3  -1    4 j   0.6943(5)   0.1820(5)   0              1.         0    
+ F    4  -1    4 j   0.3274(4)   0.2922(4)   0              1.         0    
+ F    5  -1    4 j   0.0391(4)   0.3355(5)   0              1.         0    
+ F    6  -1    4 i   0           0.5         0.2974(4)      1.         0    
+#END ZrF4
+--------------------------------------------------------------------------------------------------------------------
+#KCl
+data for   ICSD #53841
+Structured  K Cl
+D(calc)     2.01
+Title       Raumgitter Messungen an Steinsalz und Sylvin mittels homogener 
+            Roentgenstrahlen
+Author(s)   Wagner, E.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   6.272 6.272 6.272 90. 90. 90.
+Vol         246.73
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ K    1  +1    4 a   0           0           0              1.         0    
+ Cl   1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END KCl
+--------------------------------------------------------------------------------------------------------------------
+#NaCl
+data for   ICSD #60280
+Structured  Na Cl
+D(calc)     2.16
+Title       Defect characteristics in solid solutions of Na Cl - Ag Cl
+Author(s)   Urusov, V.S.;Blinov, V.V.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   5.6422 5.6422 5.6422 90. 90. 90.
+Vol         179.6
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Na   1  +1    4 a   0           0           0              1.         0    
+ Cl   1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END NaCl
+--------------------------------------------------------------------------------------------------------------------
+#78LiF–22ThF4
+data for   ICSD #71570
+Structured  Li3 Th F7
+D(calc)     5.03
+Title       Thermal study of Li3 Th F7 ionic conductor by neutron diffraction: 
+            conduction pathways
+Author(s)   Laligant, Y.;Ferey, G.;El Ghozzi, M.;Avignant, D.
+Space Group P 4/n c c Z
+SG Number   130
+Cryst Sys   tetragonal
+Unit Cell   6.24774(8) 6.24774(8) 13.0604(2) 90. 90. 90.
+Vol         509.8
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Th   1  +4    4 c   0.25        0.25        0.1893(1)      1.         0    
+ F    1  -1    4 c   0.25        0.25        0.3724(2)      1.         0    
+ F    2  -1    16 g  0.1664(2)   -.0360(2)   0.0784(1)      1.         0    
+ F    3  -1    8 f   0.9402(3)   0.0598(3)   0.25           1.         0    
+ Li   1  +1    16 g  0.328(1)    -.038(1)    0.4220(6)      0.75(9)    0    
+#END 78LiF–22ThF4
+--------------------------------------------------------------------------------------------------------------------
+#ZrF4-LiF–BeF2
+data for   ICSD #18004
+Structured  Li6 Be F4 Zr F8
+D(calc)     3.06
+Title       Crystal structure of Li6 Be F4 Zr F8
+Author(s)   Sears, D.R.;Burns, J.H.
+Space Group I 41/a m d Z
+SG Number   141
+Cryst Sys   tetragonal
+Unit Cell   6.57(2) 6.57(2) 18.62(6) 90. 90. 90.
+Vol         803.73
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H        ITF(B)    
+ Zr   1  +4    4 b   0.5         0.25        0.125          1.         0             0.3
+ Be   1  +2    4 a   0           0.75        0.125          1.         0             4.6
+ F    1  -1    16 h  0           0.534(2)    0.4207(4)      1.         0             1.3
+ F    2  -1    16 h  0           0.0260(18)  0.2903(4)      1.         0              1.
+ F    3  -1    16 h  0           -.0568(18)  0.0754(4)      1.         0             1.3
+ Li   1  +1    16 f  0.2303(64)  0           0              1.         0             2.6
+ Li   2  +1    8 e   0           0.25        0.1034(22)     1.         0             1.8
+#END ZrF4-LiF–BeF2
+--------------------------------------------------------------------------------------------------------------------
+#LiCl
+data for   ICSD #26909
+Structured  Li Cl
+D(calc)     2.09
+Title       Praezisionsbestimmung von Gitterkonstanten hygroskopischer Verbindungen (Li Cl, Na Br).
+Author(s)   Levin'sh, A.F.;Straumanis, M.E.;Karlsons, K.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   Cubic
+Unit Cell   5.129524 5.129524 5.129524 90. 90. 90.
+Vol         134.97
+Z           4
+#Atom #  OX    SITE      x           y           z         SOF         H 
+ Li   1  +1    4 a   0           0           0              1.         0    
+ Cl   1  -1    4 b   0.5         0.5         0.5            1.         0 
+#END LiCl
+--------------------------------------------------------------------------------------------------------------------
+#RbCl
+data for   ICSD #53844
+Structured  Rb Cl
+D(calc)     2.83
+Title       Strukturuntersuchungen nach der Debye-Scherrer-Methode
+Author(s)   von Ohlshausen, S.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   6.570 6.570 6.570 90. 90. 90.
+Vol         283.59
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Rb   1  +1    4 a   0           0           0              1.         0    
+ Cl   1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END RbCl
+--------------------------------------------------------------------------------------------------------------------
+#CsCl
+data for   ICSD #52274
+Structured  Cs Cl
+D(calc)     3.13
+Title       On the high-temperature modification of Cs Cl
+Author(s)   West, C.D.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   7.095 7.095 7.095 90. 90. 90.
+Vol         357.16
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Cs   1  +1    4 a   0           0           0              1.         0    
+ Cl   1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END CsCl
+--------------------------------------------------------------------------------------------------------------------
+#LiBr
+data for   ICSD #53819
+Structured  Li Br
+D(calc)     3.46
+Title       Crystal structure of alkali halogenides
+Author(s)   Posnjak, E.;Wyckoff, R.W.G.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   5.50 5.50 5.50 90. 90. 90.
+Vol         166.37
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Li   1  +1    4 a   0           0           0              1.         0    
+ Br   1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END LiBr
+--------------------------------------------------------------------------------------------------------------------
+#NaBr
+data for   ICSD #52239
+Structured  Na Br
+D(calc)     3.2
+Title       The effect of crystal-size on lattice-dimensions
+Author(s)   Finch, G.J.;Fordham, S.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   5.9755 5.9755 5.9755 90. 90. 90.
+Vol         213.31
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Na   1  +1    4 a   0           0           0              1.         0    
+ Br   1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END NaBr
+--------------------------------------------------------------------------------------------------------------------
+#KBr
+data for   ICSD #53842
+Structured  K Br
+D(calc)     2.75
+Title       Structure of alkali halides
+Author(s)   Vegard, L.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   6.5977 6.5977 6.5977 90. 90. 90.
+Vol         287.1
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ K    1  +1    4 a   0           0           0              1.         0    
+ Br   1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END KBr
+--------------------------------------------------------------------------------------------------------------------
+#RbBr
+data for   ICSD #53845
+Structured  Rb Br
+D(calc)     3.28
+Title       Cubic form of certain ions determined by X-ray structure analysis
+Author(s)   Davey, W.P.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   6.944 6.944 6.944 90. 90. 90.
+Vol         334.83
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Rb   1  +1    4 a   0           0           0              1.         0    
+ Br   1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END RbBr
+--------------------------------------------------------------------------------------------------------------------
+#CsBr
+data for   ICSD #61516
+Structured  Cs Br
+D(calc)     3.7
+Title       The Polymorphism of Thallium and Other Halides at Low Temperatures
+Author(s)   Blackman, M.;Khan, I.H.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   7.2531 7.2531 7.2531 90. 90. 90.
+Vol         381.55
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Cs   1  +1    4 a   0           0           0              1.         0    
+ Br   1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END CsBr
+--------------------------------------------------------------------------------------------------------------------
+#LiI
+data for   ICSD #53820
+Structured  Li I
+D(calc)     3.99
+Title       Crystal structure of alkali halogenides
+Author(s)   Posnjak, E.;Wyckoff, R.W.G.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   6.06 6.06 6.06 90. 90. 90.
+Vol         222.55
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Li   1  +1    4 a   0           0           0              1.         0    
+ I    1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END LiI
+--------------------------------------------------------------------------------------------------------------------
+#NaI
+data for   ICSD #53823
+Structured  Na I
+D(calc)     3.66
+Title       Crystal structure of alkali halogenides
+Author(s)   Posnjak, E.;Wyckoff, R.W.G.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   6.4756 6.4756 6.4756 90. 90. 90.
+Vol         271.46
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Na   1  +1    4 a   0           0           0              1.         0    
+ I    1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END NaI
+--------------------------------------------------------------------------------------------------------------------
+#KI
+data for   ICSD #53843
+Structured  K I
+D(calc)     3.13
+Title       Structure of alkali halides
+Author(s)   Vegard, L.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   7.064 7.064 7.064 90. 90. 90.
+Vol         352.49
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ K    1  +1    4 a   0           0           0              1.         0    
+ I    1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END KI
+--------------------------------------------------------------------------------------------------------------------
+#RbI
+data for   ICSD #53831
+Structured  Rb I
+D(calc)     3.54
+Title       Crystal structure of alkali halogenides
+Author(s)   Posnjak, E.;Wyckoff, R.W.G.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   7.36 7.36 7.36 90. 90. 90.
+Vol         398.69
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Rb   1  +1    4 a   0           0           0              1.         0    
+ I    1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END RbI
+--------------------------------------------------------------------------------------------------------------------
+#CsI
+data for   ICSD #61517
+Structured  Cs I
+D(calc)     3.88
+Title       The polymorphism of thallium and other halides at low temperatures
+Author(s)   Blackman, M.;Khan, I.H.
+Space Group Fm-3m
+SG Number   225
+Cryst Sys   cubic
+Unit Cell   7.63110 7.63110 7.63110 90. 90. 90.
+Vol         444.37
+Z           4
+Atom  #   OX   SITE      x           y           z           SOF      H 
+ Cs   1  +1    4 a   0           0           0              1.         0    
+ I    1  -1    4 b   0.5         0.5         0.5            1.         0    
+#END CsI

@@ -1,0 +1,743 @@
+#AgCl
+doi https://doi.org/10.1021/jp9512319
+Reference MARK WILSON P A M. Quadrupole Polarization in Simulations of Ionic Systems Application to AgCl [J]. J Phys Chem, 1996, 1227-37.
+Lower_temperature_limit 800 K
+Higher_temperature_limit 1800 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Cl -1
+element_2 Ag 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH no Cl Cl 102.9876 1.5346 138.90 0.0 NULL
+BMH no Cl Ag 309.6509 2.0373 92.97 0.0 NULL
+BMH no Ag Ag 20.6375 1.5346 62.23 0.0 NULL
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Cl Ag 20.8 1.5 1.0
+DIPOLE Ag Cl 13.1 1.5 1.0
+#END AgCl
+--------------------------------------------------------------------------------------------------------------------
+#DyCl3-3NaCl
+doi https://doi.org/10.1088/0953-8984/11/3/005
+Reference RYUZO TAKAGI, FRANCIS HUTCHINSON, MADDEN P A. The structure of molten and simulated with polarizable-and rigid-ion models [J]. 1999.(write the polar param by understand of myself)
+Lower_temperature_limit 900 K
+Higher_temperature_limit 1700 K
+Temperature_interval 50 K
+num_of_elements 3
+element_1 Cl -1
+element_2 Na 1
+element_3 Dy 3
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH no Cl Cl 36.44 1.26 200 0.0 NULL
+BMH no Cl Na 71.71 1.67 0 0.0 NULL
+BMH no Cl Dy 4008.61 2.44 0.0 0.0 NULL
+BMH no Na Dy 3800000 4.64 0.0 0.0 NULL
+BMH no Na Na 317.55 2.47 0.0 0.0 NULL
+BMH no Dy Dy 0 37.8 0.0 0.0 NULL
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Cl Dy 20 1.34 1.0
+DIPOLE Dy Cl 10 1.34 1.0
+#END DyCl3-3NaCl
+--------------------------------------------------------------------------------------------------------------------
+#DyCl3
+doi https://doi.org/10.1088/0953-8984/11/3/005
+Reference RYUZO TAKAGI, FRANCIS HUTCHINSON, MADDEN P A. The structure of molten and simulated with polarizable-and rigid-ion models [J]. 1999.(write the polar param by understand of myself)
+Lower_temperature_limit 900 K
+Higher_temperature_limit 1700 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Cl -1
+element_3 Dy 3
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH no Cl Cl 36.44 1.26 200 0.0 NULL
+BMH no Cl Dy 4008.61 2.44 0.0 0.0 NULL
+BMH no Dy Dy 0 37.8 0.0 0.0 NULL
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Cl Dy 20 1.34 1.0
+DIPOLE Dy Cl 10 1.34 1.0
+#END DyCl3
+--------------------------------------------------------------------------------------------------------------------
+#BeF2-2LiF
+doi https://doi.org/10.1021/jp061000+
+Reference ROBERT J. HEATON, RICHARD BROOKES, PAUL A. MADDEN, et al. A First-Principles Description of Liquid BeF2 and Its Mixtures with LiF_1. Potential Development and Pure BeF2 [J]. J Phys Chem, 2006, 110:11454-60.
+Lower_temperature_limit 750 K
+Higher_temperature_limit 1650 K
+Temperature_interval 50 K
+num_of_elements 3
+element_1 F -1
+element_2 Be 2
+element_3 Li 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 181.84 2.267 15.0 150.0 1.9
+BMH yes F Be 41.72 2.254 0.0 0.0 1.0
+BMH yes F Li 20.42 2.052 0.0 0.0 1.0
+BMH yes Be Be 106.16 3.944 0.0 0.0 1.0
+BMH yes Be Li 151.72 4.095 0.0 0.0 1.0 #noting: no Bij given in paper, here compute a geometric average
+BMH yes Li Li 195.91 4.252 0.0 0.0 1.0
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Be 7.09 1.78 0.99
+DIPOLE F Li 7.09 1.81 1.40
+#END BeF2-2LiF
+--------------------------------------------------------------------------------------------------------------------
+#BeF2
+doi https://doi.org/10.1021/jp061000+
+Reference ROBERT J. HEATON, RICHARD BROOKES, PAUL A. MADDEN, et al. A First-Principles Description of Liquid BeF2 and Its Mixtures with LiF_1. Potential Development and Pure BeF2 [J]. J Phys Chem, 2006, 110:11454-60.
+Lower_temperature_limit 850 K
+Higher_temperature_limit 1650 K
+Temperature_interval 100 K
+num_of_elements 2
+element_1 F -1
+element_2 Be 2
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 181.84 2.267 15.0 150.0 1.9
+BMH yes F Be 41.72 2.254 0.0 0.0 1.0
+BMH yes Be Be 106.16 3.944 0.0 0.0 1.0
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Be 7.8935 1.78 0.99
+#END BeF2
+--------------------------------------------------------------------------------------------------------------------
+#BeF2-LiF
+doi https://doi.org/10.1016/j.crci.2007.03.002
+Reference SALANNE M, SIMON C, TURQ P, et al. Simulation of the liquid-vapor interface of molten LiBeF3 [J]. Comptes Rendus Chimie, 2007, 10(10-11): 1131-6.
+Lower_temperature_limit 750 K
+Higher_temperature_limit 1650 K
+Temperature_interval 50 K
+num_of_elements 3
+element_1 F -1
+element_2 Be 2
+element_3 Li 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 181.84 2.267 15.0 150.0 1.9
+BMH yes F Be 41.72 2.254 0.0 0.0 1.0
+BMH yes F Li 20.42 2.052 0.0 0.0 1.0
+BMH yes Be Be 106.16 3.944 0.0 0.0 1.0
+BMH yes Be Li 0 1 0.0 0.0 1.0
+BMH yes Li Li 195.91 4.252 0.0 0.0 1.0
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Be 7.09 1.78 0.99
+DIPOLE F Li 7.09 1.81 1.40
+#END BeF2-LiF
+--------------------------------------------------------------------------------------------------------------------
+#46.5LiF-11.5NaF-42KF
+doi https://doi.org/10.1016/j.jfluchem.2008.07.013
+Reference SALANNE M, SIMON C, TURQ P, et al. Heat-transport properties of molten fluorides: Determination from first-principles [J]. Journal of Fluorine Chemistry, 2009, 130(1): 38-44.
+Lower_temperature_limit 750 K
+Higher_temperature_limit 1500 K
+Temperature_interval 50 K
+num_of_elements 4
+element_1 F -1
+element_2 Li 1
+element_3 Na 1
+element_4 K 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 15.0 150.0 1.9
+BMH yes F Li 18.8 1.974 1.2 12.2 1.9
+BMH yes F Na 52.8 1.974 13.3 88.2 1.9
+BMH yes F K 138.8 2.043 3.9 38.7 1.9
+BMH yes Li Na 5.0 1.0 1.1 7.0 1.9
+BMH yes Li K 5.0 1.0 0.3 3.2 1.9
+BMH yes Li Li 5.0 1.0 0.1 1.0 1.9
+BMH yes Na Na 5.0 1.0 11.7 51.8 1.9
+BMH yes Na K 5.0 1.0 3.4 22.8 1.9
+BMH yes K K 5.0 1.0 1.0 10.0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Li 7.89 1.83 1.34
+DIPOLE F Na 7.89 1.84 2.54
+DIPOLE F K 7.89 1.75 2.50
+DIPOLE Na F 1.01 1.84 -0.19
+DIPOLE K F 4.99 1.75 -0.31
+#END 46.5LiF-11.5NaF-42KF
+--------------------------------------------------------------------------------------------------------------------
+#57NaF-43ZrF4
+doi https://doi.org/10.1016/j.jfluchem.2008.07.013
+Reference SALANNE M, SIMON C, TURQ P, et al. Heat-transport properties of molten fluorides: Determination from first-principles [J]. Journal of Fluorine Chemistry, 2009, 130(1): 38-44.
+Lower_temperature_limit 850 K
+Higher_temperature_limit 1600 K
+Temperature_interval 50 K
+num_of_elements 3
+element_1 F -1
+element_2 Na 1
+element_3 Zr 4
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 15.0 150.0 1.9
+BMH yes F Na 52.8 1.974 13.3 88.2 1.9
+BMH yes F Zr 72.2 1.791 33.5 335.0 1.9
+BMH yes Na Na 5.0 1.0 11.7 51.8 1.9
+BMH yes Na Zr 5.0 1.0 29.6 197.1 1.9
+BMH yes Zr Zr 5.0 1.0 75.0 750.0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Na 7.89 1.84 2.54
+DIPOLE F Zr 7.89 1.84 1.72
+DIPOLE Na F 1.01 1.84 -0.19
+DIPOLE Zr F 2.83 1.84 -0.94
+#END 57NaF-43ZrF4
+--------------------------------------------------------------------------------------------------------------------
+#LiF-KF
+doi  https://doi.org/10.1039/B912532A
+Reference SAROU-KANIAN V, ROLLET A L, SALANNE M, et al. Diffusion coefficients and local structure in basic molten fluorides: in situ NMR measurements and molecular dynamics simulations [J]. Phys Chem Chem Phys, 2009, 11(48): 11501-6.
+Lower_temperature_limit 850 K
+Higher_temperature_limit 1700 K
+Temperature_interval 50 K
+num_of_elements 3
+element_1 F -1
+element_2 Li 1
+element_3 K 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 15.0 150.0 1.9
+BMH yes F Li 18.8 1.974 1.2 12.2 1.9
+BMH yes F K 138.8 2.04 3.9 38.7 1.9
+BMH yes Li K 1.0 5.0 0.3 3.2 1.9
+BMH yes Li Li 1.0 5.0 0.1 1.0 1.9
+BMH yes K K 1.0 5.0 1.0 10.0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Li 7.9 1.83 1.335
+DIPOLE F K 7.9 1.745 2.50
+DIPOLE K F 5.0 1.745 -0.31
+#END LiF-KF
+--------------------------------------------------------------------------------------------------------------------
+#LiF
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 1200 K
+Higher_temperature_limit 1900 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 F -1
+element_2 Li 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 15.0 150.0 1.9
+BMH yes F Li 18.8 1.947 0 0 1.9
+BMH yes Li Li 1.0 5.0 0 0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Li 7.9 1.834 1.335
+#END LiF
+--------------------------------------------------------------------------------------------------------------------
+#NaF
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 1300 K
+Higher_temperature_limit 1900 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 F -1
+element_2 Na 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 15.0 150.0 1.9
+BMH yes F Na 52.8 1.974 13.3 88.1 1.9
+BMH yes Na Na 1.0 5.0 11.7 51.8 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Na 9.6 1.837 2.543
+DIPOLE Na F 0.9 1.837 -0.19
+#END NaF
+--------------------------------------------------------------------------------------------------------------------
+#KF
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 1200 K
+Higher_temperature_limit 1700 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 F -1
+element_2 K 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 15.0 150.0 1.9
+BMH yes F K 138.8 2.040 3.9 38.7 1.9
+BMH yes K K 1.0 5.0 1.0 10.0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F K 9.6 1.745 2.500
+DIPOLE K F 4.7 1.745 -0.31
+#END KF
+--------------------------------------------------------------------------------------------------------------------
+#RbF
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 1100 K
+Higher_temperature_limit 1700 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 F -1
+element_2 Rb 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 15.0 150.0 1.9
+BMH yes F Rb 75.1 1.752 50.0 100.0 1.9
+BMH yes Rb Rb 5000.0 3.0 15.0 30.0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Rb 9.6 1.822 3.500
+DIPOLE Rb F 8.4 1.822 -0.44
+#END RbF
+--------------------------------------------------------------------------------------------------------------------
+#CsF
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 1000 K
+Higher_temperature_limit 1500 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 F -1
+element_2 Cs 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 15.0 150.0 1.9
+BMH yes F Cs 44.0 1.540 115.0 230.0 1.9
+BMH yes Cs Cs 5000.0 3.0 15.0 30.0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Cs 7.9 1.930 3.400
+DIPOLE Cs F 14.8 1.930 0.49
+#END CsF
+--------------------------------------------------------------------------------------------------------------------
+#CaF2
+doi https://doi.org/10.1007/s00214-012-1143-9
+Reference MATHIEU SALANNE, BENJAMIN ROTENBERG, JAHN S. Including many-body effects in models for ionic liquids [J]. 2012.
+Lower_temperature_limit 1700 K
+Higher_temperature_limit 2700 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 F -1
+element_2 Ca 2
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 0 0 1.9
+BMH yes F Ca 73.0 1.859 0 0 1.9
+BMH yes Ca Ca 1.0 5.0 0 0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Ca 7.9 1.732 1.5
+DIPOLE Ca F 3.1 1.732 -0.31
+#END CaF2
+--------------------------------------------------------------------------------------------------------------------
+#SrF2
+doi https://doi.org/10.1007/s00214-012-1143-9
+Reference MATHIEU SALANNE, BENJAMIN ROTENBERG, JAHN S. Including many-body effects in models for ionic liquids [J]. 2012.
+Lower_temperature_limit 1800 K
+Higher_temperature_limit 2800 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 F -1
+element_2 Sr 2
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 0 0 1.9
+BMH yes F Sr 82.5 1.778 0 0 1.9
+BMH yes Sr Sr 1.0 5.0 0 0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Sr 7.9 1.554 1.331
+DIPOLE Sr F 5.1 1.554 -0.33
+#END SrF2
+--------------------------------------------------------------------------------------------------------------------
+#YF3
+doi https://doi.org/10.1007/s00214-012-1143-9
+Reference MATHIEU SALANNE, BENJAMIN ROTENBERG, JAHN S. Including many-body effects in models for ionic liquids [J]. 2012.
+Lower_temperature_limit 1700 K
+Higher_temperature_limit 2500 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 F -1
+element_2 Y 3
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 0 0 1.9
+BMH yes F Y 87.4 1.832 0 0 1.9
+BMH yes Y Y 1.0 5.0 0 0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Y 7.9 1.847 1.966
+DIPOLE Y F 3.8 1.847 -0.89
+#END YF3
+--------------------------------------------------------------------------------------------------------------------
+#LaF3
+doi https://doi.org/10.1007/s00214-012-1143-9
+Reference MATHIEU SALANNE, BENJAMIN ROTENBERG, JAHN S. Including many-body effects in models for ionic liquids [J]. 2012.
+Lower_temperature_limit 1800 K
+Higher_temperature_limit 2600 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 F -1
+element_2 La 3
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 0 0 1.9
+BMH yes F La 161.6 1.867 0 0 1.9
+BMH yes La La 1.0 5.0 0 0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F La 7.9 1.614 1.348
+DIPOLE La F 7.5 1.614 -0.47
+#END LaF3
+--------------------------------------------------------------------------------------------------------------------
+#ZrF4
+doi https://doi.org/10.1016/j.jfluchem.2008.07.013
+Reference MATHIEU SALANNE, Christian Simon, Pierre Turq, Paul A. Madden. Heat-transport properties of molten fluorides: Determination from Heat-transport properties of molten fluorides: Determination from [J]. 2009.
+Lower_temperature_limit 950 K
+Higher_temperature_limit 1600 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 F -1
+element_2 Zr 4
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.444 15 150 1.9
+BMH yes F Zr 72.2 1.791 33.5 335 1.9
+BMH yes Zr Zr 5.0 1.0 75 750 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Zr 7.89 1.84 1.72
+DIPOLE Zr F 2.834 1.84 -0.94
+#END ZrF4
+--------------------------------------------------------------------------------------------------------------------
+#KCl
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 1100 K
+Higher_temperature_limit 1700 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Cl -1
+element_2 K 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes Cl Cl 275.1 1.797 140.0 280.0 1.7
+BMH yes Cl K 208.6 1.833 29.4 128.3 1.7
+BMH yes K K 1.0 5.0 1.0 10.0 1.7
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Cl K 20.0 1.632 3.0
+DIPOLE K Cl 4.7 1.632 0.917
+#END KCl
+--------------------------------------------------------------------------------------------------------------------
+#NaCl
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 1100 K
+Higher_temperature_limit 1700 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Cl -1
+element_2 Na 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes Cl Cl 275.1 1.797 140.0 280.0 1.7
+BMH yes Cl Na 67.5 1.726 47.4 187.3 1.7
+BMH yes Na Na 1.0 5.0 11.7 51.8 1.7
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Cl Na 20.0 1.760 3.0
+DIPOLE Na Cl 0.9 1.760 0.697
+#END NaCl
+--------------------------------------------------------------------------------------------------------------------
+#78LiF-22ThF4
+doi https://doi.org/10.1016/j.jnucmat.2012.12.006
+Reference DEWAN L C, SIMON C, MADDEN P A, et al. Molecular dynamics simulation of the thermodynamic and transport properties of the molten salt fast reactor fuel LiF-ThF4 [J]. Journal of Nuclear Materials, 2013, 434(1-3): 322-7.
+Lower_temperature_limit 850 K
+Higher_temperature_limit 1400 K
+Temperature_interval 50 K
+num_of_elements 3
+element_1 F -1
+element_2 Li 1
+element_3 Th 4
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.440 15.0 150.0 1.9
+BMH yes F Li 18.8 1.97 1.22 12.2 1.9
+BMH yes F Th 70.148 1.634 38.7 387.0 1.9
+BMH yes Li Li 1.0 5.0 0.10 1.0 1.9
+BMH yes Li Th 1.0 5.0 3.16 31.6 1.9
+BMH yes Th Th 1.0 5.0 100.0 1000.0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Li 7.8935 1.834 1.335
+DIPOLE F Th 7.8935 1.938 2.791
+DIPOLE Th F 7.696 1.938 -0.60906
+#END 78LiF-22ThF4
+--------------------------------------------------------------------------------------------------------------------
+#ThF4
+doi https://doi.org/10.1016/j.jnucmat.2012.12.006
+Reference DEWAN L C, SIMON C, MADDEN P A, et al. Molecular dynamics simulation of the thermodynamic and transport properties of the molten salt fast reactor fuel LiF-ThF4 [J]. Journal of Nuclear Materials, 2013, 434(1-3): 322-7.
+Lower_temperature_limit 850 K
+Higher_temperature_limit 1400 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 F -1
+element_3 Th 4
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.440 15.0 150.0 1.9
+BMH yes F Th 70.148 1.634 38.7 387.0 1.9
+BMH yes Th Th 1.0 5.0 100.0 1000.0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Th 7.8935 1.938 2.791
+DIPOLE Th F 7.696 1.938 -0.60906
+#END ThF4
+--------------------------------------------------------------------------------------------------------------------
+#12.2ThF4-71.8LiF-16BeF2
+doi https://doi.org/10.1016/j.molliq.2015.07.076
+Reference DAI J, LONG D, HUAI P, et al. Molecular dynamics studies of the structure of pure molten ThF4 and ThF4-LiF-BeF2 melts [J]. Journal of Molecular Liquids, 2015, 211(747-53.
+Lower_temperature_limit 850 K
+Higher_temperature_limit 1500 K
+Temperature_interval 50 K
+num_of_elements 4
+element_1 F -1
+element_2 Li 1
+element_3 Th 4
+element_4 Be 2
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.440 15.0 150.0 1.9
+BMH yes F Li 18.8 1.97 1.22 12.2 1.9
+BMH yes F Th 70.148 1.634 38.7 387.0 1.9
+BMH yes F Be 41.7 2.254 0.0 0.0 1.0
+BMH yes Be Be 106.2 3.944 0.0 0.0 1.0
+BMH yes Be Li 0.0 1.0 0.0 0.0 1.0
+BMH yes Be Th 0.0 1.0 3.16 31.6 1.9
+BMH yes Li Li 1.0 5.0 0.10 1.0 1.9
+BMH yes Li Th 1.0 5.0 3.16 31.6 1.9
+BMH yes Th Th 1.0 5.0 100.0 1000.0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Li 7.8935 1.834 1.335
+DIPOLE F Th 7.8935 1.938 2.791
+DIPOLE F Be 7.8935 1.78 1.78
+DIPOLE Th F 7.696 1.938 -0.60906
+#END 12.2ThF4-71.8LiF-16BeF2
+--------------------------------------------------------------------------------------------------------------------
+#ZrF4-LiF-BeF2
+doi https://doi.org/10.1016/j.molliq.2015.07.076
+Reference DAI J, LONG D, HUAI P, et al. Molecular dynamics studies of the structure of pure molten ThF4 and ThF4-LiF-BeF2 melts [J]. Journal of Molecular Liquids, 2015, 211(747-53.
+Lower_temperature_limit 850 K
+Higher_temperature_limit 1500 K
+Temperature_interval 50 K
+num_of_elements 4
+element_1 F -1
+element_2 Li 1
+element_3 Zr 4
+element_4 Be 2
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes F F 282.3 2.440 15.0 150.0 1.9
+BMH yes F Li 18.8 1.97 1.22 12.2 1.9
+BMH yes F Zr 72.2 1.791 33.5 335.0 1.9
+BMH yes F Be 41.7 2.254 0.0 0.0 1.0
+BMH yes Be Be 106.2 3.944 0.0 0.0 1.0
+BMH yes Be Li 0.0 1.0 0.0 0.0 1.0
+BMH yes Be Zr 0.0 1.0 3.16 31.6 1.9
+BMH yes Li Li 5.0 1.0 0.10 1.0 1.9
+BMH yes Li Zr 5.0 1.0 2.7 27.4 1.9
+BMH yes Zr Zr 5.0 1.0 75.0 750.0 1.9
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE F Li 7.8935 1.834 1.335
+DIPOLE F Zr 7.8935 1.84 1.72
+DIPOLE F Be 7.8935 1.78 1.78
+DIPOLE Zr F 2.83 1.84 -0.94
+#END ZrF4-LiF-BeF2
+--------------------------------------------------------------------------------------------------------------------
+#LiCl
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 900 K
+Higher_temperature_limit 1700 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Cl -1
+element_2 Li 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes Cl Cl 275.1 1.797 140.0 280.0 1.7
+BMH yes Cl Li 58.9 1.951 0.0 0.0 1.7
+BMH yes Li Li 1.0 5.0 0.0 0.0 1.7
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Cl Li 20.0 1.861 2.079
+DIPOLE Li Cl 0.0 1.861 0.0
+#END LiCl
+--------------------------------------------------------------------------------------------------------------------
+#RbCl
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 1000 K
+Higher_temperature_limit 1700 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Cl -1
+element_2 Rb 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes Cl Cl 275.1 1.797 140.0 280.0 1.7
+BMH yes Cl Rb 113.2 1.588 175.0 330.0 1.7
+BMH yes Rb Rb 5000.0 3.0 15.0 30.0 1.7
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Cl Rb 20.0 1.901 9.048
+DIPOLE Rb Cl 8.4 1.901 1.096
+#END RbCl
+--------------------------------------------------------------------------------------------------------------------
+#CsCl
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 950 K
+Higher_temperature_limit 1600 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Cl -1
+element_2 Cs 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes Cl Cl 275.1 1.797 140.0 280.0 1.7
+BMH yes Cl Cs 110.2 1.515 250.0 500.0 1.7
+BMH yes Cs Cs 5000.0 3.0 15.0 30.0 1.7
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Cl Cs 20.0 1.641 3.356
+DIPOLE Cs Cl 14.8 1.641 0.070
+#END CsCl
+--------------------------------------------------------------------------------------------------------------------
+#LiBr
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 850 K
+Higher_temperature_limit 1550 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Br -1
+element_2 Li 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes Br Br 218.2 1.678 250.0 500.0 1.65
+BMH yes Br Li 35.0 1.688 0.0 0.0 1.65
+BMH yes Li Li 1.0 5.0 0.0 0.0 1.65
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Br Li 25.6 1.669 1.782
+DIPOLE Li Br 0.0 1.669 0.0
+#END LiBr
+--------------------------------------------------------------------------------------------------------------------
+#NaBr
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 1050 K
+Higher_temperature_limit 1700 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Br -1
+element_2 Na 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes Br Br 218.2 1.678 250.0 500.0 1.65
+BMH yes Br Na 39.8 1.526 75.0 150.0 1.65
+BMH yes Na Na 1.0 5.0 11.7 51.8 1.65
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Br Na 25.6 1.897 5.355
+DIPOLE Na Br 0.9 1.897 1.548
+#END NaBr
+--------------------------------------------------------------------------------------------------------------------
+#KBr
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 1050 K
+Higher_temperature_limit 1700 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Br -1
+element_2 K 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes Br Br 218.2 1.678 250.0 500.0 1.65
+BMH yes Br K 94.5 1.555 145.0 290.0 1.65
+BMH yes K K 1.0 5.0 1.0 10.0 1.65
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Br K 25.6 1.705 5.077
+DIPOLE K Br 4.7 1.705 1.465
+#END KBr
+--------------------------------------------------------------------------------------------------------------------
+#RbBr
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 1000 K
+Higher_temperature_limit 1650 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Br -1
+element_2 Rb 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes Br Br 218.2 1.678 250.0 500.0 1.65
+BMH yes Br Rb 84.8 1.468 260.0 520.0 1.65
+BMH yes Rb Rb 5000.0 3.0 15.0 30.0 1.65
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Br Rb 25.6 1.754 7.795
+DIPOLE Rb Br 8.4 1.754 3.870
+#END RbBr
+--------------------------------------------------------------------------------------------------------------------
+#CsBr
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 950 K
+Higher_temperature_limit 1600 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 Br -1
+element_2 Cs 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes Br Br 218.2 1.678 250.0 500.0 1.65
+BMH yes Br Cs 130.1 1.481 325.0 650.0 1.65
+BMH yes Cs Cs 5000.0 3.0 15.0 30.0 1.65
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE Br Cs 25.6 1.624 4.484
+DIPOLE Cs Br 14.8 1.624 0.537
+#END CsBr
+--------------------------------------------------------------------------------------------------------------------
+#LiI
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 750 K
+Higher_temperature_limit 1450 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 I -1
+element_2 Li 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes I I 177.0 1.505 470.0 940.0 1.57
+BMH yes I Li 40.0 1.591 0.0 0.0 1.57
+BMH yes Li Li 1.0 5.0 0.0 0.0 1.57
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE I Li 35.2 1.633 2.006
+DIPOLE Li I 0.0 1.633 0.0
+#END LiI
+--------------------------------------------------------------------------------------------------------------------
+#NaI
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 950 K
+Higher_temperature_limit 1600 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 I -1
+element_2 Na 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes I I 177.0 1.505 470.0 940.0 1.57
+BMH yes I Na 76.0 1.559 70.0 140.0 1.57
+BMH yes Na Na 1.0 5.0 11.7 51.8 1.57
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE I Na 35.2 1.776 4.499
+DIPOLE Na I 0.9 1.776 3.324
+#END NaI
+--------------------------------------------------------------------------------------------------------------------
+#KI
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50. 
+Lower_temperature_limit 1000 K
+Higher_temperature_limit 1600 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 I -1
+element_2 K 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes I I 177.0 1.505 470.0 940.0 1.57
+BMH yes I K 87.9 1.439 260.0 520.0 1.57
+BMH yes K K 1.0 5.0 1.0 10.0 1.57
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE I K 35.2 1.784 9.018
+DIPOLE K I 4.7 1.784 4.375
+#END KI
+--------------------------------------------------------------------------------------------------------------------
+#RbI
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 950 K
+Higher_temperature_limit 1600 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 I -1
+element_2 Rb 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes I I 177.0 1.505 470.0 940.0 1.57
+BMH yes I Rb 150.1 1.470 370.0 740.0 1.57
+BMH yes Rb Rb 5000.0 3.0 15.0 30.0 1.57
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE I Rb 35.2 1.750 7.714
+DIPOLE Rb I 8.4 1.750 7.061
+#END RbI
+--------------------------------------------------------------------------------------------------------------------
+#CsI
+doi https://doi.org/10.1080/00268976.2015.1046527
+Reference ISHII Y, KASAI S, SALANNE M, et al. Transport coefficients and the Stokes-Einstein relation in molten alkali halides with polarisable ion model [J]. Molecular Physics, 2015, 113(17-18): 2442-50.
+Lower_temperature_limit 900 K
+Higher_temperature_limit 1600 K
+Temperature_interval 50 K
+num_of_elements 2
+element_1 I -1
+element_2 Cs 1
+#sectionname damping? ionA ionB Aij(Ha) Bij(bohr^-1) Cij(Ha*borh^6) Dij(Ha*borh^8)  BD(borh^-1)
+BMH yes I I 177.0 1.505 470.0 940.0 1.57
+BMH yes I Cs 166.9 1.440 450.0 900.0 1.57
+BMH yes Cs Cs 5000.0 3.0 15.0 30.0 1.57
+#sectionname ionA ionB APOL(borh^3) Bij(borh^-1) Cij
+DIPOLE I Cs 35.2 1.711 8.732
+DIPOLE Cs I 14.8 1.711 3.196
+#END CsI
