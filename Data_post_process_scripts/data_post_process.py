@@ -11,7 +11,7 @@ import pprint
 import argparse
 import data_post_process_utils as utils
 
-parser = argparse.ArgumentParser(description = 'Post process program of PIM molten salts to get thermal physical properties.')
+parser = argparse.ArgumentParser(description = 'Post process program of PIM molten salts to get thermophysical and microstructural properties.')
 parser.add_argument('name', type = str, metavar = 'name', help = 'The name of the molten salt system.')
 parser.add_argument('-t', '--timestep', type = float, nargs = 1, help = "Set timestep of MD. If not set, the default value is 1 fs.")
 parser.add_argument('-dst', '--density', action = 'store_false', default = True, help = "If set, do not compute density.")
